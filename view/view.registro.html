@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style/styleLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/9f76817260.js" crossorigin="anonymous"></script>
+    <title>Iniciar Sesión</title>
+</head>
+
+<body>
+    <div style="padding-left: 20%; padding-right: 20%;">
+        <div style="display: flex;
+    justify-content: center;
+    position: relative;">
+        </div>
+        <div>
+            <div class="columnas-10 formulario-contacto">
+                <img src="../img/Logo.png" alt="Imagen Logo" style="width: 150px; height: 150px; margin-left:43.5%;">
+                <h3 class="texto_centrado Logo" style="margin-top: 0% ;">BDTecnology</h1>
+                    <h1 class="texto_centrado mayusculas" style="margin-top: 0% ;">Bienvenido</h1>
+                    <h2 class="texto_centrado mayusculas" style="margin-top: 0% ;">Para acceder primero deberas de registrate</h2>
+                    <form action="../php/registro.php" method="post">
+                        <div class="campo">
+                            <i class="fas fa-user fa-3x" style="margin-top: 1.5%;"></i>
+                            <input class="margin-right" name="usua" type="text" placeholder="Usuario" required>
+                        </div>
+                        <div class="campo">
+                            <i class="fas fa-lock fa-3x" style="margin-top: 1.5%;"></i>
+                            <input type="password" name="contra" placeholder="Contraseña" required>
+                        </div>
+                        <div class="texto_centrado">
+                            <a class="texto_centrado enlace" href="view.crearCuenta.html">Crear cuenta</a>
+                            <span style="color: black; font-size: 1.5rem;">|</span>
+                            <a class="texto_centrado enlace" href="../index.php">Regresar</a>
+                        </div>
+                        <div class="enviar">
+                            <input type="submit" value="Enviar" class="btn" name="btningresar">
+                        </div>
+                    </form>
+            </div>
+        </div>
+</body>
+
+</html>

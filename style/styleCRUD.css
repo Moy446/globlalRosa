@@ -1,0 +1,20 @@
+html{
+    background-color:#AEB6BF;
+}
+.contenedor{
+    margin: 0 10rem;
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+.separacion{
+    padding-top: 2rem;
+}
+
+.ocultar{
+    display: none;
+}
+
+.marginTop{
+    padding-top: 2rem;
+    background-color: #AEB6BF;
+}

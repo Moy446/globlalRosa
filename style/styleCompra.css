@@ -1,0 +1,52 @@
+.btn2{
+	background-color: #106cff;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 5px;
+    transition: .5s;
+}
+h2{
+    font: normal 25px Verdana, Geneva, sans-serif;
+}
+p{
+    font: bold 15px Verdana, Geneva, sans-serif;
+    color: #868686;
+}
+h3{
+    font: bold 35px Verdana, Geneva, sans-serif;
+    color: #106cff;
+}
+.contenedorPreguntas{
+    margin: 0 10rem;
+    padding: 0 2rem;
+}
+.preguntasProducto{
+    padding: 0 5rem;
+}
+.textoCentrado {
+    text-align: center;
+}
+.separacionPregunta{
+    padding-top: 2.5rem;
+}
+.centrarBoton{
+    justify-content: center;
+    align-items: center;
+}
+.btn3{
+    background-color: #106cff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: white;
+    width: auto;
+    height: 38px;
+    border-radius: 2rem;
+    cursor: pointer;
+}

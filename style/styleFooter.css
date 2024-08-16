@@ -1,0 +1,23 @@
+.Footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.row_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.division_50 {
+    padding: 10px;
+    width: 100%;
+}
+/* PANTALLA 993 */
+@media (min-width: 992px) {
+    .row_search {
+        flex-direction: row;
+    }
+    .division_50 {
+        width: 50%;
+    }
+}

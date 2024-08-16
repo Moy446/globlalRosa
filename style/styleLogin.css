@@ -1,0 +1,145 @@
+html {
+    background-color:#AEB6BF;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #07a0a1;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 75%;
+}
+
+.margen_imagen {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+.texto_centrado {
+    text-align: center;
+}
+
+.texto_centrado a {
+    padding: 0 2em;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.back_logo {
+    position: absolute;
+    top: 1rem;
+    background-color: rgb(223, 223, 223);
+}
+
+.logo i {
+    padding: 3rem 2rem;
+    font-size: 10rem;
+    color: #09948d;
+}
+
+.formulario-contacto {
+    margin-top: 17%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 3rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.formulario-contacto:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 0px 20px 0px rgba(60, 60, 60, 1);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(60, 60, 60, 1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(60, 60, 60, 1);
+}
+
+.campo {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+input:not([type="submit"]) {
+    background-color: rgba(255, 255, 255, 0.1);
+    flex: 1;
+    padding: 2rem;
+    font-size: 2rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    width: 100%;
+}
+
+i {
+    margin: 1rem 2rem;
+    color: #07a0a1;
+}
+
+.enviar {
+    display: block;
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: #16696b;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+    transition: .5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #16696b;
+    border: .1rem solid #16696b;
+}
+
+.enlace {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.enlace:hover {
+    color: #0ab4ac;
+}
